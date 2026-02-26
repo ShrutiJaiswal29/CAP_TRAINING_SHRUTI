@@ -1,0 +1,86 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+/* Body styling */
+body {
+  background: #ffeef5;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: pink;
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid deeppink;
+}
+
+/* Class selector */
+.tagline {
+  font-style: italic;
+}
+
+/* Navigation */
+nav {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: deeppink;
+  font-weight: bold;
+}
+
+/* Pseudo-class */
+nav a:hover {
+  color: purple;
+}
+
+/* Section box design */
+section {
+  background: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid pink;
+  border-radius: 10px;
+}
+
+/* Image styling */
+img {
+  width: 120px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+/* List styling */
+ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+/* Pseudo-element */
+ul li::before {
+  content: "🌸 ";
+}
+
+/* Contact links */
+.contact a {
+  color: deeppink;
+}
+
+/* Footer */
+footer {
+  background: pink;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}

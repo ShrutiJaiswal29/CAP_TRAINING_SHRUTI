@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  text-align: center;
+  background: #e9eef5;
+}
+
+/* Fixed top bar */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #6fb3d2;
+  color: black;
+  padding: 10px;
+}
+
+/* Heading spacing below fixed bar */
+h1 {
+  margin-top: 70px;
+  color: #5a6b7a;
+}
+
+/* Relative long bar */
+.relative {
+  position: relative;
+  width: 70%;
+  height: 60px;
+  background: #9fd3b0;
+  margin: 30px auto;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+/* Absolute floating box */
+.absolute {
+  position: absolute;
+  right: -20px;
+  top: 10px;
+  background: #e6c98f;
+  padding: 15px 25px;
+  border: 2px solid #c9b07a;
+}
+
+/* Static grey bar */
+.static {
+  width: 60%;
+  height: 60px;
+  background: #bfc5ce;
+  margin: 30px auto;
+  line-height: 60px;
+  font-weight: bold;
+}
