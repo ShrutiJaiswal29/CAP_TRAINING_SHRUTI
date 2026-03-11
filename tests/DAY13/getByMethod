@@ -1,0 +1,8 @@
+GET BY METHODS
+1. getbyText()
+2. getbyAttText()
+3. getbyLabel()
+4. getbyTitle()
+5. getbyPlaceholder()
+6. getbyRate()
+7. getbyTextId()

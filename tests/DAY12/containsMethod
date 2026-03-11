@@ -1,0 +1,6 @@
+// contains() method
+
+// contains() is used to match partial text (when you don’t know the full text).
+
+// Syntax
+// // tagname[contains(text(),'Partial Text')]

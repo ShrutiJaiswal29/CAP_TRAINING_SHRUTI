@@ -1,0 +1,7 @@
+// text() method
+
+// text() is used to match the exact text of an element.
+
+// Syntax
+// //tagname[text()='Exact Text']
+
