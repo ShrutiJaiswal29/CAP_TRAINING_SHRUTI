@@ -1,0 +1,19 @@
+{
+  "name": "api-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "rimraf test-results && npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  },
+  "dependencies": {
+    "rimraf": "^6.1.3"
+  }
+}
