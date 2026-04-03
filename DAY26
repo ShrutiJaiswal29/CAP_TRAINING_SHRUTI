@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "3641a02b-4c80-4d3e-8211-bd19fd38b01a",
+    "name": "DAY26",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53447912"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\":\"shrutijaizz123@gmail.com\",\r\n    \"password\":\"ShrutiJaiswal@2\",\r\n    \"role\":\"SHOPPER\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://www.shoppersstack.com/shopping/users/login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "shoppersstack",
+            "com"
+          ],
+          "path": [
+            "shopping",
+            "users",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
